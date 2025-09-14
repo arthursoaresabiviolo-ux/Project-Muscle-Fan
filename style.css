@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    height: 200vh;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
+    url('foto 1.png') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex;
+    align-items:center;
+}
+
+svg {
+    width: 400px;
+    height: auto;
+}
+
+.musculo {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 0.6px;
+  transition: fill 0.3s;
+  cursor: pointer;
+}
+.sem_interacao .no_interaction {
+  fill: #deb79d;
+  stroke: #000000;
+  stroke-width: 0px;
+  transition: fill 0.3s;
+}
+
+.corpo{
+  /* esquerda, baixo */
+  transform: translateX(-25%) translateY(-100px) scale(3.0);
+}
+
+.peitoral:hover .musculo{
+  fill: red;
+}
+
+.ombro:hover .musculo{
+  fill: red;
+}
+
+.quadriceps:hover .musculo{
+  fill: red;
+}
+
+.abdomen:hover .musculo{
+  fill: red;
+}
+
+.panturrilha:hover .musculo{
+  fill: red;
+}
+
+.trapezio:hover .musculo{
+  fill: red;
+}
+
+.biceps:hover .musculo{
+  fill: red;
+}
+
+.antebraco:hover .musculo{
+  fill: red;
+}
+
+.triceps:hover .musculo{
+  fill: red;
+}
+
+.adutor:hover .musculo{
+  fill: red;
+}
+
+.gluteo_medio:hover .musculo{
+  fill: red;
+}
+
+.obliquo_externo:hover .musculo{
+  fill: red;
+}
