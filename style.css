@@ -16,69 +16,90 @@ svg {
     height: auto;
 }
 
-.musculo {
+.muscle {
   fill: #ffffff;
   stroke: #000000;
   stroke-width: 0.6px;
   transition: fill 0.3s;
   cursor: pointer;
 }
-.sem_interacao .no_interaction {
+
+.zero-interaction .no-interaction {
   fill: #deb79d;
   stroke: #000000;
   stroke-width: 0px;
   transition: fill 0.3s;
 }
 
-.corpo{
+.front-side{
   /* esquerda, baixo */
-  transform: translateX(-25%) translateY(-100px) scale(3.0);
+  transform: translateX(-45%) translateY(-100px) scale(4.5);
 }
 
-.peitoral:hover .musculo{
+.back-side{
+  transform: translateX(10%) translateY(30px) scale(0.8);
+}
+
+.chest:hover .muscle{
   fill: red;
 }
 
-.ombro:hover .musculo{
+.shoulder:hover .muscle{
   fill: red;
 }
 
-.quadriceps:hover .musculo{
+.quadriceps:hover .muscle{
   fill: red;
 }
 
-.abdomen:hover .musculo{
+.abs:hover .muscle{
   fill: red;
 }
 
-.panturrilha:hover .musculo{
+.calf:hover .muscle{
   fill: red;
 }
 
-.trapezio:hover .musculo{
+.trapezius:hover .muscle{
   fill: red;
 }
 
-.biceps:hover .musculo{
+.biceps:hover .muscle{
   fill: red;
 }
 
-.antebraco:hover .musculo{
+.forearm:hover .muscle{
   fill: red;
 }
 
-.triceps:hover .musculo{
+.triceps:hover .muscle{
   fill: red;
 }
 
-.adutor:hover .musculo{
+.adductor:hover .muscle{
   fill: red;
 }
 
-.gluteo_medio:hover .musculo{
+.gluteus-medius:hover .muscle{
   fill: red;
 }
 
-.obliquo_externo:hover .musculo{
+.external-oblique:hover .muscle{
+  fill: red;
+}
+
+.back:hover .muscle{
+  fill: red;
+}
+
+.gluteus-maximus:hover .muscle{
+  fill: red;
+}
+
+.abductor:hover .muscle{
+  fill: red;
+}
+
+.hamstring:hover .muscle{
   fill: red;
 }
