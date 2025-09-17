@@ -1,14 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+header{
+  top: 0;
+  width: 100%;
+  padding-left: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 13px;
+  color: #ff2b2b;
+  margin: 1;
+
+  
+}
+
+nav a {
+  color: #9b9b9b;
+  transition: 0.3s;
+  margin-right: 2rem;
+  font-size: 10px;
+  display: inline;
+  
+}
+
+nav a:hover {
+  color: #ff2b2b;
+  display: inline;
+}
+
+h2{
+  color: white;
+  font-size: 20px;
+}
+
+p{
+  color: #ffffff;
+  font-size: 10px;
+}
+
 body{
+    zoom: 1;
     margin: 0;
     height: 200vh;
-    background: 
-    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), 
-    url('foto 1.png') no-repeat center center/cover;
-    color: white;
+    background: linear-gradient(135deg, #111, #222);
     display: flex;
     flex-direction: column;
     justify-content: flex;
     align-items:center;
+    font-family: "Epunda Slab", serif;
+    font-weight: 400;
 }
 
 svg {
@@ -20,7 +65,7 @@ svg {
   fill: #ffffff;
   stroke: #000000;
   stroke-width: 0.6px;
-  transition: fill 0.3s;
+  transition: fill 0.7s;
   cursor: pointer;
 }
 
