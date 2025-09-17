@@ -2,21 +2,23 @@
 
 header{
   top: 0;
+  left: 0;
   width: 100%;
   padding-left: 2rem;
   background: rgba(0, 0, 0, 0.8);
-  display: flex;
+  display: flex; /*mantem a resolução da tela independente do tamanho*/
   justify-content: space-between;
   align-items: center;
   z-index: 1000;
+
 }
 
 header h1 {
   font-size: 13px;
   color: #ff2b2b;
-  margin: 1;
+  margin: 0;
+  display: flex;
 
-  
 }
 
 nav a {
@@ -44,21 +46,23 @@ p{
 }
 
 body{
-    zoom: 1;
+    zoom: 1.10;
     margin: 0;
     height: 200vh;
     background: linear-gradient(135deg, #111, #222);
     display: flex;
     flex-direction: column;
-    justify-content: flex;
+    justify-content: flex-start;
     align-items:center;
     font-family: "Epunda Slab", serif;
     font-weight: 400;
+
 }
 
 svg {
     width: 400px;
     height: auto;
+    display: flex;
 }
 
 .muscle {
