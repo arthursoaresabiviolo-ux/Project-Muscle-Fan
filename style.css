@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
 
-header{
+header {
   top: 0;
-  left: 0;
-  width: 100%;
-  padding-left: 2rem;
-  background: rgba(0, 0, 0, 0.8);
-  display: flex; /*mantem a resolução da tela independente do tamanho*/
-  justify-content: space-between;
+  position: fixed;
   align-items: center;
-  z-index: 1000;
-
+  padding: 4px 6px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
 }
 
 header h1 {
@@ -18,51 +17,56 @@ header h1 {
   color: #ff2b2b;
   margin: 0;
   display: flex;
-
 }
 
-nav a {
+.nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 100%;
+}
+
+.nav a {
   color: #9b9b9b;
   transition: 0.3s;
-  margin-right: 2rem;
-  font-size: 10px;
+  font-size: 8px;
   display: inline;
-  
 }
 
-nav a:hover {
+.nav a:hover {
   color: #ff2b2b;
   display: inline;
 }
 
-h2{
+h2 {
   color: white;
   font-size: 20px;
 }
 
-p{
+p {
   color: #ffffff;
   font-size: 10px;
 }
 
-body{
-    zoom: 1.10;
-    margin: 0;
-    height: 200vh;
-    background: linear-gradient(135deg, #111, #222);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items:center;
-    font-family: "Epunda Slab", serif;
-    font-weight: 400;
+body {
+  zoom: 1.75;
+  margin: 0;
+  padding-top: 20px;
+  height: 200vh;
+  background: linear-gradient(135deg, #111, #222);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Epunda Slab", serif;
+  font-weight: 400;
 
 }
 
 svg {
-    width: 400px;
-    height: auto;
-    display: flex;
+  width: 400px;
+  height: auto;
+  display: flex;
 }
 
 .muscle {
@@ -80,75 +84,75 @@ svg {
   transition: fill 0.3s;
 }
 
-.front-side{
+.front-side {
   /* esquerda, baixo */
   transform: translateX(-45%) translateY(-100px) scale(4.5);
 }
 
-.back-side{
+.back-side {
   transform: translateX(10%) translateY(30px) scale(0.8);
 }
 
-.chest:hover .muscle{
+.chest:hover .muscle {
   fill: red;
 }
 
-.shoulder:hover .muscle{
+.shoulder:hover .muscle {
   fill: red;
 }
 
-.quadriceps:hover .muscle{
+.quadriceps:hover .muscle {
   fill: red;
 }
 
-.abs:hover .muscle{
+.abs:hover .muscle {
   fill: red;
 }
 
-.calf:hover .muscle{
+.calf:hover .muscle {
   fill: red;
 }
 
-.trapezius:hover .muscle{
+.trapezius:hover .muscle {
   fill: red;
 }
 
-.biceps:hover .muscle{
+.biceps:hover .muscle {
   fill: red;
 }
 
-.forearm:hover .muscle{
+.forearm:hover .muscle {
   fill: red;
 }
 
-.triceps:hover .muscle{
+.triceps:hover .muscle {
   fill: red;
 }
 
-.adductor:hover .muscle{
+.adductor:hover .muscle {
   fill: red;
 }
 
-.gluteus-medius:hover .muscle{
+.gluteus-medius:hover .muscle {
   fill: red;
 }
 
-.external-oblique:hover .muscle{
+.external-oblique:hover .muscle {
   fill: red;
 }
 
-.back:hover .muscle{
+.back:hover .muscle {
   fill: red;
 }
 
-.gluteus-maximus:hover .muscle{
+.gluteus-maximus:hover .muscle {
   fill: red;
 }
 
-.abductor:hover .muscle{
+.abductor:hover .muscle {
   fill: red;
 }
 
-.hamstring:hover .muscle{
+.hamstring:hover .muscle {
   fill: red;
 }
