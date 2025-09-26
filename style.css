@@ -64,7 +64,8 @@ body {
 }
 
 svg {
-  width: 400px;
+  width: 100%;
+  max-width: 450px;
   height: auto;
   display: flex;
 }
