@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
 
 header{
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -19,6 +20,13 @@ header h1 {
   margin: 0;
   display: flex;
 
+}
+
+footer{
+  bottom: 0;
+  position: fixed;
+  width: 90%;
+  text-align: center;
 }
 
 .nav a {
