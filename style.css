@@ -14,10 +14,11 @@ header{
 }
 
 header h1 {
-  font-size: 1.25rem; /* 20px (relativo) */
+  font-size: 13px;
   color: #ff2b2b;
   margin: 0;
   display: flex;
+
 }
 
 .nav a {
@@ -48,15 +49,9 @@ p{
   color: #ffffff;
   font-size: 15px;
 }
-.modelos {
-  display: flex;            /* Isso coloca os filhos (os SVGs) lado a lado */
-  justify-content: center;  /* Centraliza os dois corpos na página */
-  align-items: flex-start;  /* Alinha eles pelo topo */
-  width: 100%;              /* Faz o container ocupar a largura da tela */
-  gap: 20px;                /* Cria um espaço entre os dois corpos */
-}
 
 body{
+    zoom: 1.10;
     margin: 0;
     height: 200vh;
     background: linear-gradient(135deg, #111, #222);
@@ -72,6 +67,7 @@ body{
 svg {
     width: 400px;
     height: auto;
+    display: flex;
 }
 
 .muscle {
@@ -90,6 +86,7 @@ svg {
 }
 
 .front-side{
+  /* esquerda, baixo */
   transform: translateX(-45%) translateY(-100px) scale(4.5);
 }
 
